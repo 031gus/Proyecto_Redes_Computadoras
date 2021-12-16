@@ -56,7 +56,7 @@ function convertirNumero(){
             document.getElementById("phone-cbff").innerHTML = decimal;
             document.getElementById("textarea-924a").innerHTML = hexadecimal;
         } else {
-            swal("Error", "Ingrese un número válido en sistema " + sistema,"error");
+            swal("Error", "Ingrese un número válido en sistema " + sistema + ".","error");
             document.getElementById("textarea-b7df").innerHTML = "";
             document.getElementById("textarea-7754").innerHTML = "";
             document.getElementById("phone-cbff").innerHTML = "";
