@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Subneteo VLSM</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Subneteo-VLSM.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i|Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900">
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "pagina_web",
+		"logo": "images/Redes-de-computadoras.jpg"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Subneteo-VLSM">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-72e6"><div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-font-titillium-web u-text u-text-default u-text-1">Redes de computadoras</h1>
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="800" data-image-height="470">
+          <img src="images/Redes-de-computadoras.jpg" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-position="">
+          <div class="menu-collapse u-custom-font u-font-ubuntu" style="font-size: 1rem; letter-spacing: 0px; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-ubuntu u-nav u-spacing-1 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="index.html" style="padding: 10px;">Inicio</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Configuración-Básica.html" style="padding: 10px;">Configuración Básica</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Conversor-Sistemas.html" style="padding: 10px;">Conversor Sistemas</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Calculador-de-Octetos.html" style="padding: 10px;">Calculador de Octetos</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Subneteo-VLSM.html" style="padding: 10px;">Subneteo VLSM</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Conversor-ASCII.html" style="padding: 10px;">Conversor ASCII</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html" style="padding: 10px;">Inicio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Configuración-Básica.html" style="padding: 10px;">Configuración Básica</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Conversor-Sistemas.html" style="padding: 10px;">Conversor Sistemas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Calculador-de-Octetos.html" style="padding: 10px;">Calculador de Octetos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Subneteo-VLSM.html" style="padding: 10px;">Subneteo VLSM</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Conversor-ASCII.html" style="padding: 10px;">Conversor ASCII</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-efb2">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-align-center u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="2000" data-animation-direction="">Subneteo mediante VLSM</h1>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-image u-shading u-section-2" id="carousel_9ddc" data-image-width="744" data-image-height="400">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-justify u-custom-font u-font-ubuntu u-text u-text-1"><b>VLSM</b>&nbsp;del Inglés&nbsp;<b>Variable Length Subnet Mask</b>&nbsp;o&nbsp;<b>Máscara de Subred de Longitud Variable</b>&nbsp;en español, es una técnica que se creó para hacer un uso más eficiente del espacio de direccionamiento de una red.
+        </p>
+        <h1 class="u-align-center u-text u-text-2">Calculo Paso a Paso</h1>
+        <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-layout-grid u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-custom-item u-list-item u-palette-2-base u-repeater-item u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <h4 class="u-align-center u-text u-text-body-alt-color u-text-3">Calcular el número de bits de host</h4>
+                <p class="u-align-justify u-text u-text-black u-text-4">Para determinar el número de bits de la parte de host se usa la fórmula:<br>
+                  <span style="font-weight: 700;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2n−2≥H</span>
+                  <br>Donde&nbsp;<b>n</b>&nbsp;es el número de bits y&nbsp;<b>H</b>&nbsp;es el número de host de la subred<br>
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-item u-list-item u-palette-3-base u-repeater-item u-video-cover u-list-item-2">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <h4 class="u-align-center u-text u-text-body-alt-color u-text-5">Calcular el número de bits de subred</h4>
+                <p class="u-align-justify u-text u-text-black u-text-6">Para calcular el número de bits de la subred podemos utilizar la siguiente expresión:<span id="MathJax-Element-4-Frame" class="MathJax_CHTML mjx-chtml" role="presentation" style="box-sizing: inherit; display: inline-block; line-height: 0; text-align: left; font-style: normal; font-size: 17.55px; overflow-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; margin: 0px; padding: 1px 0px; position: relative;">R<span style="font-weight: 700;">=(32−p)−nR=(32−p)−n</span>
+                  </span>Donde&nbsp;<b>32</b>&nbsp;es el número de bits de una dirección IP binaria,&nbsp;<b>p</b>&nbsp;es el prefijo de la red&nbsp;y&nbsp;<b>n</b>&nbsp;es el número de bits de la parte de host calculado en el paso anterior.
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-item u-list-item u-palette-1-base u-repeater-item u-video-cover u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <h4 class="u-align-center u-text u-text-body-alt-color u-text-7">calcular la nueva máscara de subred</h4>
+                <p class="u-align-justify u-text u-text-black u-text-8"> El nuevo prefijo de red se obtine sumándole&nbsp;<b>R</b>&nbsp;al prefijo original.<br>
+                  <br>&nbsp; &nbsp; &nbsp;<span style="font-weight: 700;">&nbsp; &nbsp; &nbsp; &nbsp;P= P +R</span>
+                </p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-item u-list-item u-palette-4-base u-repeater-item u-video-cover u-list-item-4">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <h4 class="u-align-center u-text u-text-body-alt-color u-text-9">calcular el salto de red</h4>
+                <p class="u-align-justify u-text u-text-black u-text-10">El salto de red es la diferencia entre dos direcciones de red consecutivas y se calcula como la diferencia de&nbsp;<b>256</b>&nbsp;y el&nbsp;<b>último octeto no nulo de la máscara</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 400 400" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-acac"></use></svg><svg class="u-svg-content" viewBox="0 0 400 400" id="svg-acac"><desc></desc><defs><path d="M220,270 L334.005979,270 C337.318532,270 340,267.31365 340,263.99987 L340,86.0001305 C340,82.6858997 337.316385,80 334.005979,80 L65.9940209,80 C62.6814684,80 60,82.6863499 60,86.0001305 L60,263.99987 C60,267.3141 62.6836146,270 65.9940209,270 L180,270 L180,300 L220,300 L220,270 L220,270 L220,270 L220,270 Z M130,303.99923 C130,301.790516 131.795632,300 134.001598,300 L265.998402,300 C268.208423,300 270,301.792468 270,303.99923 L270,316.00077 C270,318.209484 268.204368,320 265.998402,320 L134.001598,320 C131.791577,320 130,318.207532 130,316.00077 L130,303.99923 L130,303.99923 L130,303.99923 L130,303.99923 Z" id="path-1"></path><filter filterUnits="objectBoundingBox" height="200%" id="filter-2" width="200%" x="-50%" y="-50%"><feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"></feGaussianBlur><feColorMatrix in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"></feColorMatrix>
+</filter><rect height="141" id="path-3" rx="2" width="260" x="70" y="99"></rect><filter filterUnits="objectBoundingBox" height="200%" id="filter-4" width="200%" x="-50%" y="-50%"><feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"></feGaussianBlur><feColorMatrix in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"></feColorMatrix>
+</filter><circle cx="200" cy="255" id="path-5" r="10"></circle><filter filterUnits="objectBoundingBox" height="200%" id="filter-6" width="200%" x="-50%" y="-50%"><feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"></feGaussianBlur><feColorMatrix in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"></feColorMatrix>
+</filter>
+</defs><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g id="pc"><path d="M200,400 C310.45695,400 400,310.45695 400,200 C400,89.54305 310.45695,0 200,0 C89.54305,0 0,89.54305 0,200 C0,310.45695 89.54305,400 200,400 Z" fill="#AAD8B0" id="Oval-6"></path><g id="Combined-Shape"><use fill="black" fill-opacity="1" filter="url(#filter-2)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-1"></use><use fill="#697F9B" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-1"></use>
+</g><g id="Rectangle-42"><use fill="black" fill-opacity="1" filter="url(#filter-4)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-3"></use><use fill="#DCF0E6" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-3"></use>
+</g><g id="Oval-45"><use fill="black" fill-opacity="1" filter="url(#filter-6)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-5"></use><use fill="#FBF0B8" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-5"></use>
+</g>
+</g>
+</g></svg></span><span class="u-icon u-icon-circle u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 58 58" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9a14"></use></svg><svg class="u-svg-content" viewBox="0 0 58 58" x="0px" y="0px" id="svg-9a14" style="enable-background:new 0 0 58 58;"><circle style="fill:#7383BF;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" cx="29" cy="29" r="28"></circle><line style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="29" y1="57" x2="29" y2="1"></line><path style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M29,1
+	c-0.214,0-0.426,0.011-0.639,0.016C20.213,7.616,15,17.697,15,29s5.213,21.384,13.361,27.984C28.574,56.989,28.786,57,29,57"></path><path style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M8.698,9.728
+	C14.478,13.683,21.468,16,29,16s14.522-2.317,20.302-6.272"></path><path style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M49.862,47.67
+	C43.975,43.475,36.779,41,29,41s-14.975,2.475-20.862,6.67"></path><path style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" d="M29,57
+	c0.214,0,0.426-0.011,0.639-0.016C37.787,50.384,43,40.303,43,29S37.787,7.616,29.639,1.016C29.426,1.011,29.214,1,29,1"></path><line style="fill:none;stroke:#556080;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;" x1="1" y1="29" x2="57" y2="29"></line></svg></span><span class="u-icon u-icon-circle u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 53 53" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-dae9"></use></svg><svg class="u-svg-content" viewBox="0 0 53 53" x="0px" y="0px" id="svg-dae9" style="enable-background:new 0 0 53 53;"><rect x="27" y="28" style="fill:#424A60;" width="2" height="18"></rect><rect x="37.5" y="2.893" transform="matrix(0.7071 0.7071 -0.7071 0.7071 20.8223 -23.2696)" style="fill:#424A60;" width="2" height="21.213"></rect><rect x="15" y="21.858" transform="matrix(0.7071 0.7071 -0.7071 0.7071 30.1421 -0.7696)" style="fill:#424A60;" width="2" height="28.284"></rect><rect x="10.722" y="13.5" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.6716 -8.8345)" style="fill:#424A60;" width="15.556" height="2"></rect><rect x="26.893" y="32.5" transform="matrix(0.7071 0.7071 -0.7071 0.7071 34.6716 -16.7046)" style="fill:#424A60;" width="21.213" height="2"></rect><circle style="fill:#43B05C;" cx="48" cy="5" r="5"></circle><circle style="fill:#7383BF;" cx="28" cy="48" r="5"></circle><circle style="fill:#57D8AB;" cx="5" cy="46" r="5"></circle><circle style="fill:#D75A4A;" cx="12" cy="8" r="3"></circle><circle style="fill:#EBBA16;" cx="44" cy="40" r="3"></circle><circle style="fill:#4B6DAA;" cx="28" cy="24" r="7"></circle></svg></span><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 200 200" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b694"></use></svg><svg class="u-svg-content" viewBox="0 0 200 200" id="svg-b694"><g><g><g><g><path d="M24.6,123.9h55.9V96.7v-1.2v-2H24.6c-0.5,0-0.8,0.1-0.8,0.6v1.4v1.2V123C23.8,123.5,24.1,123.9,24.6,123.9z M25,94.7      h54.3v3.4H25V94.7z M25,99.4h54.3v23.3H25V99.4z"></path>
+</g><g><path d="M80.8,124.2H24.6c-0.6,0-1.1-0.6-1.1-1.2V94.1c0-0.3,0.1-0.8,1.1-0.8h56.2V124.2z M24.6,93.7c-0.6,0-0.6,0.2-0.6,0.3      V123c0,0.3,0.2,0.7,0.6,0.7h55.7v-30H24.6z M79.6,122.9H24.8V99.1h54.8V122.9z M25.3,122.4h53.8V99.6H25.3V122.4z M79.6,98.4      H24.8v-3.9h54.8V98.4z M25.3,97.9h53.8V95H25.3V97.9z"></path>
+</g>
+</g><g><g><circle cx="52.4" cy="131.7" r="1"></circle>
+</g><g><path d="M52.4,132.9c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S53.1,132.9,52.4,132.9z M52.4,131      c-0.4,0-0.7,0.3-0.7,0.7s0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7S52.8,131,52.4,131z"></path>
+</g>
+</g><g><g><path d="M84,88.8H20.4c-0.6,0-1,0.5-1,1.1v44.5c0,0.6,0.3,1.2,1,1.2h22.4v4.7h-6v1.3h30.7v-1.3h-6v-4.7H84c0.6,0,1-0.5,1-1.2V90      C84.9,89.3,84.6,88.8,84,88.8z M44.1,140.3v-4.7h16v4.7H44.1z M83.6,134.3H61.3H43.1H20.8v-5.3h62.8V134.3z M83.6,127.6H20.8      V90.2h62.8V127.6z"></path>
+</g><g><path d="M67.8,141.9H36.5v-1.8h6v-4.2H20.4c-0.7,0-1.2-0.6-1.2-1.4V90c0-0.8,0.5-1.4,1.2-1.4H84c0.7,0,1.2,0.6,1.2,1.4v44.5      c0,0.8-0.5,1.4-1.2,1.4H61.8v4.2h6V141.9z M37,141.4h30.2v-0.8h-6v-5.2H84c0.5,0,0.7-0.5,0.7-0.9V90c0-0.4-0.2-0.9-0.7-0.9H20.4      c-0.5,0-0.7,0.5-0.7,0.9v44.5c0,0.4,0.2,0.9,0.7,0.9h22.7v5.2h-6V141.4z M60.4,140.6H43.9v-5.2h16.5V140.6z M44.4,140.1h15.5      v-4.2H44.4V140.1z M83.8,134.5H20.5v-5.8h63.3V134.5z M21,134h62.3v-4.8H21V134z M83.8,127.9H20.5V89.9h63.3V127.9z M21,127.4      h62.3V90.4H21V127.4z"></path>
+</g>
+</g>
+</g><g><g><g><path d="M107.3,54.9h55.9V27.6v-1.2v-2h-55.9c-0.5,0-0.8,0.1-0.8,0.6v1.4v1.2v26.3C106.5,54.4,106.8,54.9,107.3,54.9z       M107.7,25.6H162v3.4h-54.3V25.6z M107.7,30.3H162v23.3h-54.3V30.3z"></path>
+</g><g><path d="M163.5,55.1h-56.2c-0.6,0-1.1-0.6-1.1-1.2V25c0-0.3,0.1-0.8,1.1-0.8h56.2V55.1z M107.3,24.6c-0.6,0-0.6,0.2-0.6,0.3      v28.9c0,0.3,0.2,0.7,0.6,0.7H163v-30H107.3z M162.2,53.9h-54.8V30h54.8V53.9z M107.9,53.4h53.8V30.5h-53.8V53.4z M162.2,29.3      h-54.8v-3.9h54.8V29.3z M107.9,28.8h53.8v-2.9h-53.8V28.8z"></path>
+</g>
+</g><g><g><circle cx="135.1" cy="62.6" r="1"></circle>
+</g><g><path d="M135.1,63.8c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2C136.3,63.3,135.8,63.8,135.1,63.8z       M135.1,61.9c-0.4,0-0.7,0.3-0.7,0.7s0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7S135.5,61.9,135.1,61.9z"></path>
+</g>
+</g><g><g><path d="M166.6,19.8H103c-0.6,0-1,0.5-1,1.1v44.5c0,0.6,0.3,1.2,1,1.2h22.4v4.7h-6v1.3h30.7v-1.3h-6v-4.7h22.4      c0.6,0,1-0.5,1-1.2V20.9C167.6,20.3,167.3,19.8,166.6,19.8z M126.8,71.2v-4.7h16v4.7H126.8z M166.2,65.2h-22.3h-18.2h-22.3v-5.3      h62.8V65.2z M166.2,58.5h-62.8V21.1h62.8V58.5z"></path>
+</g><g><path d="M150.5,72.8h-31.2V71h6v-4.2H103c-0.7,0-1.2-0.6-1.2-1.4V20.9c0-0.8,0.5-1.4,1.2-1.4h63.6c0.7,0,1.2,0.6,1.2,1.4v44.5      c0,0.8-0.5,1.4-1.2,1.4h-22.2V71h6V72.8z M119.7,72.3H150v-0.8h-6v-5.2h22.7c0.5,0,0.7-0.5,0.7-0.9V20.9c0-0.4-0.2-0.9-0.7-0.9      H103c-0.5,0-0.7,0.5-0.7,0.9v44.5c0,0.4,0.2,0.9,0.7,0.9h22.7v5.2h-6V72.3z M143.1,71.5h-16.5v-5.2h16.5V71.5z M127.1,71h15.5      v-4.2h-15.5V71z M166.5,65.5h-63.3v-5.8h63.3V65.5z M103.7,65H166v-4.8h-62.3V65z M166.5,58.8h-63.3V20.8h63.3V58.8z       M103.7,58.3H166V21.3h-62.3V58.3z"></path>
+</g>
+</g>
+</g><g><g><g><path d="M120.3,162.5h55.9v-27.3V134v-2h-55.9c-0.5,0-0.8,0.1-0.8,0.6v1.4v1.2v26.3C119.5,162.1,119.8,162.5,120.3,162.5z       M120.7,133.3H175v3.4h-54.3V133.3z M120.7,138H175v23.3h-54.3V138z"></path>
+</g><g><path d="M176.5,162.8h-56.2c-0.6,0-1.1-0.6-1.1-1.2v-28.9c0-0.3,0.1-0.8,1.1-0.8h56.2V162.8z M120.3,132.3      c-0.6,0-0.6,0.2-0.6,0.3v28.9c0,0.3,0.2,0.7,0.6,0.7H176v-30H120.3z M175.2,161.5h-54.8v-23.8h54.8V161.5z M120.9,161h53.8      v-22.8h-53.8V161z M175.2,137h-54.8v-3.9h54.8V137z M120.9,136.5h53.8v-2.9h-53.8V136.5z"></path>
+</g>
+</g><g><g><circle cx="148.1" cy="170.3" r="1"></circle>
+</g><g><path d="M148.1,171.5c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2S148.8,171.5,148.1,171.5z M148.1,169.6      c-0.4,0-0.7,0.3-0.7,0.7s0.3,0.7,0.7,0.7s0.7-0.3,0.7-0.7S148.5,169.6,148.1,169.6z"></path>
+</g>
+</g><g><g><path d="M179.6,127.4H116c-0.6,0-1,0.5-1,1.1v44.5c0,0.6,0.3,1.2,1,1.2h22.4v4.7h-6v1.3h30.7v-1.3h-6v-4.7h22.4      c0.6,0,1-0.5,1-1.2v-44.5C180.6,127.9,180.3,127.4,179.6,127.4z M139.8,178.9v-4.7h16v4.7H139.8z M179.2,172.9h-22.3h-18.2      h-22.3v-5.3h62.8V172.9z M179.2,166.2h-62.8v-37.4h62.8V166.2z"></path>
+</g><g><path d="M163.5,180.5h-31.2v-1.8h6v-4.2H116c-0.7,0-1.2-0.6-1.2-1.4v-44.5c0-0.8,0.5-1.4,1.2-1.4h63.6c0.7,0,1.2,0.6,1.2,1.4      v44.5c0,0.8-0.5,1.4-1.2,1.4h-22.2v4.2h6V180.5z M132.7,180H163v-0.8h-6V174h22.7c0.5,0,0.7-0.5,0.7-0.9v-44.5      c0-0.4-0.2-0.9-0.7-0.9H116c-0.5,0-0.7,0.5-0.7,0.9v44.5c0,0.4,0.2,0.9,0.7,0.9h22.7v5.2h-6V180z M156.1,179.2h-16.5V174h16.5      V179.2z M140.1,178.7h15.5v-4.2h-15.5V178.7z M179.5,173.1h-63.3v-5.8h63.3V173.1z M116.7,172.6H179v-4.8h-62.3V172.6z       M179.5,166.5h-63.3v-37.9h63.3V166.5z M116.7,166H179V129h-62.3V166z"></path>
+</g>
+</g>
+</g><g><g><g><path d="M104,166c-19.8,0-38.3-8.9-50.7-24.3l1.6-1.3c12,15,30,23.6,49.2,23.6c3.8,0,7.6-0.3,11.2-1l0.4,2      C111.8,165.6,107.9,166,104,166z"></path>
+</g>
+</g>
+</g><g><g><g><path d="M163,128.2l-1.8-0.8c3.8-8.3,5.8-17.2,5.8-26.4c0-12.2-3.5-24.4-9.9-34.4l1.7-1.1C165.4,75.8,169,88.4,169,101      C169,110.5,167,119.7,163,128.2z"></path>
+</g>
+</g>
+</g><g><g><g><path d="M42,89.8l-2-0.4c5.4-30.2,31.6-52.6,62.3-53.4l0.1,2C72.6,38.8,47.3,60.5,42,89.8z"></path>
+</g>
+</g>
+</g>
+</g></svg></span>
+        <div class="u-palette-5-base u-shape u-shape-rectangle u-shape-1"></div>
+        <p class="u-align-justify u-text u-text-black u-text-11">El resto de subredes se calcula siguiendo los mismos pasos vistos anteriormente.<br>
+        </p><span class="u-icon u-icon-circle u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 42 42" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2a76"></use></svg><svg class="u-svg-content" viewBox="0 0 42 42" x="0px" y="0px" id="svg-2a76" style="enable-background:new 0 0 42 42;"><path style="fill:currentColor;" d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21
+	s2.224,5,4.941,5H16v11.059C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z"></path></svg></span>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-5 u-section-3" id="sec-1d01">
+      <div class="u-clearfix u-sheet u-sheet-1"><span class="u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 12.7 12.7" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c8ae"></use></svg><svg class="u-svg-content" viewBox="0 0 12.7 12.7" id="svg-c8ae"><defs id="defs2"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath5343"><path d="m 3.0688351,285.55677 c -1.613568,1.19596 -2.5662181,3.08478 -2.56883509,5.09323 0,3.50701 2.84299219,6.35 6.35000009,6.35 C 10.357008,297 13.2,294.15701 13.2,290.65 c -0.0022,-0.84296 -0.452078,-2.71271 -0.500228,-2.45359 -0.02424,0.84121 -0.571809,2.35322 -0.602031,2.23138 -0.0026,-0.50621 -0.2876,-1.42626 -0.305098,-1.19509 0.02804,1.40695 -1.48374,3.17677 -2.3076623,3.50038 -0.8310457,0.36942 -1.7371637,0.56412 -2.6117267,0.56534 -0.1736918,2e-5 -1.1686519,-0.13807 -1.6443439,-0.70435 -0.826376,-0.89253 -0.00201,-1.09994 0.4625039,-1.27331 0.5055862,-0.18871 1.030887,-0.30969 1.5203212,-0.42013 0.7456988,-0.16826 0.4710618,-0.52626 0.1049028,-0.6289 -0.9266939,-0.25976 -2.044886,0.33543 -2.8654579,0.30593 -0.848406,-0.0291 -0.804618,-1.69621 -0.1405601,-1.76217 0.7394212,-0.0734 1.6665151,-0.51079 1.461779,-0.65673 -0.8303549,-0.61672 -0.9617369,-0.79081 -1.0595549,-1.16418 -0.1480201,-0.565 0.341282,-1.03557 0.05777,-0.96356 -0.2596169,0.08 -0.4110678,0.15641 -0.5988619,0.25715 -0.1672929,0.0897 -0.293814,0.0546 -0.6751841,0.002 -0.3249449,-0.045 -0.3870058,-0.0557 -0.3755009,-0.25673 0.0115,-0.20097 0.07295,-0.52125 -0.05223,-0.47648 z" id="path5345" style="fill:#7aafff;fill-opacity:1;stroke:none;stroke-width:2.01045942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+</clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath4543"><path d="m 1.7760088,291.5696 c -1.82613339,0.17434 -3.2940315,0.91934 -3.4903996,2.16451 -0.2629054,1.66729 1.5678591,3.34127 4.0891213,3.73893 1.2172084,0.19119 2.434234,0.053 3.3807423,-0.38387 0.7310194,0.5283 1.669357,0.90078 2.6704721,1.06008 2.5212691,0.39771 4.7783381,-0.6315 5.0412801,-2.2988 0.262905,-1.6673 -1.490667,-1.94329 -4.257163,-2.17938 -2.7664958,-0.23609 -3.6163896,-1.68839 -5.7470448,-2.04575 -0.5660191,-0.0893 -1.1380808,-0.10817 -1.6870084,-0.0557 z" id="path4545" style="opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"></path>
+</clipPath>
+</defs><g id="layer1" transform="translate(0,-284.3)"><g id="g4687" transform="translate(9.5367429e-8,-0.2003418)"><circle cx="6.3499999" cy="290.85034" id="path4514" r="6.3499999" style="fill:#ffccaa;fill-opacity:1;stroke:none;stroke-width:1.74658811;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></circle><path d="m 12.7,290.85034 a 6.3499999,6.3499999 0 0 1 -6.3499999,6.35 l -2e-7,-6.35 z" id="path4514-1" style="fill:#afe9dd;fill-opacity:1;stroke:none;stroke-width:1.74658811;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+</g><g id="g4668-8" style="fill:#ff924b;fill-opacity:1" transform="translate(0.43126016,0.3416082)"><g id="g4534-4-4" style="fill:#ff924b;fill-opacity:1" transform="translate(-1.7883089,-3.3603208)"><rect height="0.64105648" id="rect4513-8-8" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="3.9274027" y="291.14941"></rect><rect height="0.64105648" id="rect4513-9-1-1" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" transform="rotate(90)" width="3.2052824" x="289.86734" y="-5.8505721"></rect>
+</g><rect height="0.64105648" id="rect4513-8-9-0" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="6.9318762" y="287.78912"></rect><g id="g4620-3" style="fill:#ff924b;fill-opacity:1" transform="translate(-3.1160784,-1.4513778)"><rect height="0.64105648" id="rect4513-8-9-9-0" ry="0.24656066" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="5.2551723" y="294.03329"></rect><g id="g4614-4" style="fill:#ff924b;fill-opacity:1" transform="translate(0.03960049)"><ellipse cx="6.818213" cy="293.11923" id="path4595-4" rx="0.3773661" ry="0.36804843" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"></ellipse><ellipse cx="6.818213" cy="295.58841" id="path4595-8-4" rx="0.3773661" ry="0.36804843" style="opacity:1;vector-effect:none;fill:#ff924b;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"></ellipse>
+</g>
+</g><g id="g4654-4" style="fill:#ff924b;fill-opacity:1" transform="translate(-0.26784652,-0.05268306)"><rect height="0.64105648" id="rect4513-8-9-5-7" ry="0.24656066" style="opacity:1;vector-effect:none;fill:#5dc1ae;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="7.1997228" y="291.88297"></rect><rect height="0.64105648" id="rect4513-8-9-5-0-6" ry="0.24656068" style="opacity:1;vector-effect:none;fill:#5dc1ae;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="7.1997228" y="293.38623"></rect>
+</g>
+</g><g id="g4668" transform="translate(0.21187374,0.14395033)"><g id="g4534-4" style="fill:#ffffff" transform="translate(-1.7883089,-3.3603208)"><rect height="0.64105648" id="rect4513-8" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="3.9274027" y="291.14941"></rect><rect height="0.64105648" id="rect4513-9-1" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" transform="rotate(90)" width="3.2052824" x="289.86734" y="-5.8505721"></rect>
+</g><rect height="0.64105648" id="rect4513-8-9" ry="0.24656065" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="6.9318762" y="287.78912"></rect><g id="g4620" transform="translate(-3.1160784,-1.4513778)"><rect height="0.64105648" id="rect4513-8-9-9" ry="0.24656066" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="5.2551723" y="294.03329"></rect><g id="g4614" transform="translate(0.03960049)"><ellipse cx="6.818213" cy="293.11923" id="path4595" rx="0.3773661" ry="0.36804843" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"></ellipse><ellipse cx="6.818213" cy="295.58841" id="path4595-8" rx="0.3773661" ry="0.36804843" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"></ellipse>
+</g>
+</g><g id="g4654" transform="translate(-0.26784652,-0.05268306)"><rect height="0.64105648" id="rect4513-8-9-5" ry="0.24656066" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="7.1997228" y="291.88297"></rect><rect height="0.64105648" id="rect4513-8-9-5-0" ry="0.24656068" style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.4002564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="3.2052824" x="7.1997228" y="293.38623"></rect>
+</g>
+</g>
+</g></svg></span>
+        <h2 class="u-custom-font u-font-titillium-web u-text u-text-default u-text-palette-2-light-1 u-text-1">CÁLCULO</h2>
+        <div class="u-accordion u-spacing-10 u-accordion-1">
+          <div class="u-accordion-item">
+            <a class="active u-accordion-link u-active-palette-1-base u-button-style u-hover-palette-1-light-1 u-palette-1-light-1 u-radius-14 u-accordion-link-1" id="link-accordion-0781" aria-controls="accordion-0781" aria-selected="true">
+              <span class="u-accordion-link-text">Ingresar dirección IP y prefijo originales</span>
+              <span class="u-accordion-link-icon u-border-2 u-border-palette-2-light-2 u-icon u-icon-circle u-spacing-10 u-text-white u-icon-2">
+                <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style="">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-25ca"></use>
+                </svg>
+                <svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-25ca" style="enable-background:new 0 0 52 52;">
+                  <g><path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26
+                    S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z"></path>
+                    <path d="M38.252,15.336l-15.369,17.29l-9.259-7.407c-0.43-0.345-1.061-0.274-1.405,0.156c-0.345,0.432-0.275,1.061,0.156,1.406
+                    l10,8C22.559,34.928,22.78,35,23,35c0.276,0,0.551-0.114,0.748-0.336l16-18c0.367-0.412,0.33-1.045-0.083-1.411
+                    C39.251,14.885,38.62,14.922,38.252,15.336z"></path>
+                  </g>
+                </svg>
+              </span>
+            </a>
+            <div class="u-accordion-active u-accordion-pane u-align-left u-container-style u-shape-rectangle u-accordion-pane-1" id="accordion-0781" aria-labelledby="link-accordion-0781">
+              <div class="u-container-layout u-valign-top u-container-layout-1">
+                <div class="u-form u-form-1">
+                  <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
+                    <div class="u-form-group u-form-name">
+                      <label for="direccion" class="u-form-control-hidden u-label"></label>
+                      <input type="text" placeholder="Introduzca la dirección IP original" id="direccion" name="dir_ip" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                    </div>
+                    <div class="u-form-email u-form-group">
+                      <label for="email-9549" class="u-form-control-hidden u-label"></label>
+                      <input type="email" placeholder="Introduzca el prefijo" id="email-9549" name="prefijo" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a onclick="continuarNumeroSubredes()" class="u-active-palette-2-light-1 u-border-2 u-border-active-palette-2-light-2 u-border-palette-2-light-1 u-btn u-btn-submit u-button-style u-hover-palette-2-light-2 u-none u-text-hover-white u-text-palette-2-light-1 u-btn-1">Continuar</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-accordion-item">
+            <a class="u-accordion-link u-active-palette-1-base u-button-style u-hover-palette-1-light-1 u-palette-1-light-1 u-radius-14 u-accordion-link-2" id="paso2" aria-controls="accordion-4c47" aria-selected="false">
+              <span class="u-accordion-link-text">Ingresar número total de subredes</span><span class="u-accordion-link-icon u-border-2 u-border-palette-2-light-2 u-icon u-icon-circle u-spacing-10 u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0958"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-0958" style="enable-background:new 0 0 52 52;"><g><path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26
+		S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z"></path><path d="M38.252,15.336l-15.369,17.29l-9.259-7.407c-0.43-0.345-1.061-0.274-1.405,0.156c-0.345,0.432-0.275,1.061,0.156,1.406
+		l10,8C22.559,34.928,22.78,35,23,35c0.276,0,0.551-0.114,0.748-0.336l16-18c0.367-0.412,0.33-1.045-0.083-1.411
+		C39.251,14.885,38.62,14.922,38.252,15.336z"></path>
+</g></svg></span>
+            </a>
+            <div class="u-accordion-pane u-container-style u-shape-rectangle u-accordion-pane-2" id="accordion-4c47" aria-labelledby="paso2">
+              <div class="u-container-layout u-container-layout-2">
+                <div class="u-form u-form-2">
+                  <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form-1" style="padding: 10px;">
+                    <div class="u-form-group u-form-name">
+                      <label for="num_hosts" class="u-form-control-hidden u-label"></label>
+                      <input type="text" placeholder="Introduzca el número total de subredes" id="num_hosts" name="no_subredes" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                    </div>
+                    <div class="u-align-left u-form-group u-form-submit">
+                      <a onclick="continuarNumeroHosts()" class="u-active-palette-2-light-1 u-border-2 u-border-active-palette-2-light-1 u-border-hover-palette-2-light-1 u-border-palette-2-light-2 u-btn u-btn-submit u-button-style u-hover-palette-2-light-2 u-none u-text-hover-white u-text-palette-2-light-1 u-btn-2">Continuar<br>
+                      </a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-accordion-item">
+            <a class="u-accordion-link u-active-palette-1-base u-button-style u-hover-palette-1-light-1 u-palette-1-light-1 u-radius-14 u-accordion-link-3" id="paso3" aria-controls="2044" aria-selected="false">
+              <span class="u-accordion-link-text">Ingresar número de host por subred</span><span class="u-accordion-link-icon u-border-2 u-border-palette-2-light-2 u-icon u-icon-circle u-spacing-10 u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 52 52" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c5f0"></use></svg><svg class="u-svg-content" viewBox="0 0 52 52" x="0px" y="0px" id="svg-c5f0" style="enable-background:new 0 0 52 52;"><g><path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26
+		S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z"></path><path d="M38.252,15.336l-15.369,17.29l-9.259-7.407c-0.43-0.345-1.061-0.274-1.405,0.156c-0.345,0.432-0.275,1.061,0.156,1.406
+		l10,8C22.559,34.928,22.78,35,23,35c0.276,0,0.551-0.114,0.748-0.336l16-18c0.367-0.412,0.33-1.045-0.083-1.411
+		C39.251,14.885,38.62,14.922,38.252,15.336z"></path>
+</g></svg></span>
+            </a>
+            <div class="u-accordion-pane u-align-left u-container-style u-shape-rectangle u-accordion-pane-3" id="2044" aria-labelledby="paso3">
+              <div class="u-container-layout u-valign-bottom u-container-layout-3">
+                <div class="u-form u-form-3">
+                  <form action="#" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form-2" style="padding: 10px;" id="num_hosts_form">
+                    
+                  </form>
+                  <div class="u-align-left u-form-group u-form-submit">
+                    <a onclick="calcularSubneteo()" class="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-3">CALCULAR</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-4" id="sec-0d43">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="12.4%">
+              <col width="12.4%">
+              <col width="12.4%">
+              <col width="12.4%">
+              <col width="12.4%">
+              <col width="13.300000000000011%">
+              <col width="12.1%">
+              <col width="12.900000000000011%">
+            </colgroup>
+            <thead class="u-align-center u-palette-4-base u-table-header u-table-header-1">
+              <tr style="height: 21px;">
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Nombre subred</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Número de host</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Prefijo</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Máscara de subred</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Dirección de subred</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Primera IP disponible</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">Última IP disponible</th>
+                <th class="u-border-1 u-border-palette-4-base u-table-cell">IP Broadcast</th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body" id="tabla">
+              <!-- <tr style="height: 75px;">
+                <td class="u-border-1 u-border-grey-30 u-first-column u-palette-4-light-2 u-table-cell u-table-cell-9">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    
+    <script src="Subneteo-VLSM.js"></script>
+
+    
+    
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-design" target="_blank">
+        <span>Website Design Template</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="https://nicepage.cc" target="_blank">
+        <span>Website Builder</span>
+      </a>. 
+    </section>
+  </body>
+</html>
